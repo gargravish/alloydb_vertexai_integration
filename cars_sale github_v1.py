@@ -88,9 +88,9 @@ register_adapter(np.int64, addapt_numpy_int64)
 register_adapter(np.ndarray, addapt_numpy_array)
 
 
-project_id = 'raves-altostrat'  # @param {type:"string"}
-region = 'asia-southeast1'
-endpoint = 3421627409080778752
+project_id = secrets.project_id  # @param {type:"string"}
+region = secrets.region
+endpoint = secrets.endpoint
 
 hostname = secrets.hostname
 port_num = secrets.port_num
